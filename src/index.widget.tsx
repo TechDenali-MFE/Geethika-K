@@ -1,7 +1,7 @@
 import React from "react";
 import App from "./App";
 import { createRoot, Root as ReactRoot } from "react-dom/client";
-
+import "./index.css";
 export interface WidgetOptions {
   containerElementId: string;
   name: string;
